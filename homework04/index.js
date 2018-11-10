@@ -48,7 +48,7 @@ function Cashier( name, productDatabase){
       };
 
       this.onSuccess = function (change){
-        return console.log('Спасибо за покупку, ваша сдача 190');
+        return console.log(`Спасибо за покупку, ваша сдача ${change}`);
       };
 
       this.onError = function (){
